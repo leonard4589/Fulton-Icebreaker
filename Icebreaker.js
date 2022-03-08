@@ -23,7 +23,7 @@ function populatePage (i){
   ageDiv.innerHTML = "Age: " + students[i].age;
 
   var birthdayDiv = document.getElementById("birthday");
-  birthdayDiv.innerHTML = "Birthday: " students[i].birthday;
+  birthdayDiv.innerHTML = "Birthday: " + students[i].birthday;
 
   var bioDiv = document.getElementById("studentbio");
   bioDiv.innerHTML = students[i].bio;
