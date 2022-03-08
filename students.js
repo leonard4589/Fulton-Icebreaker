@@ -66,6 +66,7 @@ var students = [
     nickname: "",
     grade: 10,
     age: 16,
+    birthday: "December 16, 2005",
     bio: "I like orange."
   },
   {
@@ -74,6 +75,7 @@ var students = [
     nickname: "Pizza Gamer",
     grade: 10,
     age: 16,
+    birthday: "January 31, 2006",
     bio: "I like pizza and gamers."
   },
   {
@@ -91,6 +93,7 @@ var students = [
     nickname: "",
     grade: 10,
     age: 16,
+    birthday: "January 7, 2006",
     bio: "I like food."
   },
   {
