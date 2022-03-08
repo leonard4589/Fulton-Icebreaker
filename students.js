@@ -11,7 +11,7 @@ var students = [
     // age: unique age for each student
     age: 15,
     // bio: unique birthday
-    birthday: "January 20, 2007",
+    birthday: "1/20/2007",
     // bio: unique discription for each student written by student
     bio: "I like breathing."
   },
@@ -21,6 +21,7 @@ var students = [
     nickname: "Ru",
     grade: 10,
     age: 15,
+    birthday: "6/24/2006",
     bio: "I like food."
   },
   {
@@ -29,6 +30,7 @@ var students = [
     nickname: "Brookie",
     grade: 11,
     age: 17,
+    birthday: "9/7/2004",
     bio: "I like Ruthie."
   },
   {
@@ -37,6 +39,7 @@ var students = [
     nickname: "Kat",
     grade: 11,
     age: 16,
+    birthday: "10/7/2005",
     bio: "I like sushi."
   },
   {
@@ -45,7 +48,7 @@ var students = [
     nickname: "",
     grade: 9,
     age: 14,
-    birthday: "April 16, 2007",
+    birthday: "4/16/2007",
     bio: "I like stuff."
   },
   {
@@ -54,7 +57,7 @@ var students = [
     nickname: "Joy Joy",
     grade: 11,
     age: 16,
-    birthday: "June 13, 2005",
+    birthday: "6/13/2005",
     bio: "I like coffee."
   },
   {
@@ -63,6 +66,7 @@ var students = [
     nickname: "",
     grade: 10,
     age: 16,
+    birthday: "12/16/2005",
     bio: "I like orange."
   },
   {
@@ -71,6 +75,7 @@ var students = [
     nickname: "Pizza Gamer",
     grade: 10,
     age: 16,
+    birthday: "1/31/2006",
     bio: "I like pizza and gamers."
   },
   {
@@ -79,6 +84,7 @@ var students = [
     nickname: "",
     grade: 10,
     age: 16,
+    birthday: "1/17/2006",
     bio: "I like to write."
   },
   {
@@ -87,6 +93,7 @@ var students = [
     nickname: "",
     grade: 10,
     age: 16,
+    birthday: "1/7/2006",
     bio: "I like food."
   },
   {
@@ -95,7 +102,7 @@ var students = [
     nickname: "Sir Long Calf",
     grade: 12,
     age: 18,
-    birthday: "August, 31, 2003",
+    birthday: "8/31/2003",
     bio: "I like blue hair."
   },
 

@@ -14,7 +14,11 @@ function populatePage (i){
   nameDiv.innerHTML = students[i].name;
 
   var nicknameDiv = document.getElementById("nickname");
+<<<<<<< HEAD
   nicknameDiv.innerHTML = students[i].nickname;
+=======
+  nameDiv.innerHTML = "Nickname: " + students[i].nickname;
+>>>>>>> 4f008b08d8e7fe69cc63cb864573fceb93065f9d
 
   var gradeDiv = document.getElementById("studentgrade");
   gradeDiv.innerHTML = "Grade: " + students[i].grade;
@@ -23,7 +27,11 @@ function populatePage (i){
   ageDiv.innerHTML = "Age: " + students[i].age;
 
   var birthdayDiv = document.getElementById("birthday");
+<<<<<<< HEAD
   birthdayDiv.innerHTML = students[i].birthday;
+=======
+  nameDiv.innerHTML = "Birthday: " + students[i].birthday;
+>>>>>>> 4f008b08d8e7fe69cc63cb864573fceb93065f9d
 
   var bioDiv = document.getElementById("studentbio");
   bioDiv.innerHTML = students[i].bio;
