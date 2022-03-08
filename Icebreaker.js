@@ -2,8 +2,7 @@ b=document.getElementById("backbutton");
 b.addEventListener("click", function(){
   alert("Great now make that other page");
 })
-</script>
-<script type="text/javascript">
+
 var students = [
 {
   id: 1,
