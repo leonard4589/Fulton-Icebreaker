@@ -21,6 +21,7 @@ var students = [
     nickname: "Ru",
     grade: 10,
     age: 15,
+    birthday: "June 24, 2006",
     bio: "I like food."
   },
   {
@@ -29,6 +30,7 @@ var students = [
     nickname: "Brookie",
     grade: 11,
     age: 17,
+    birthday: "September 7, 2004",
     bio: "I like Ruthie."
   },
   {
@@ -37,6 +39,7 @@ var students = [
     nickname: "Kat",
     grade: 11,
     age: 16,
+    birthday: "October 7, 2005",
     bio: "I like sushi."
   },
   {
@@ -63,6 +66,7 @@ var students = [
     nickname: "",
     grade: 10,
     age: 16,
+    birthday: "December 16, 2005",
     bio: "I like orange."
   },
   {
@@ -71,6 +75,7 @@ var students = [
     nickname: "Pizza Gamer",
     grade: 10,
     age: 16,
+    birthday: "January 31, 2006",
     bio: "I like pizza and gamers."
   },
   {
@@ -79,6 +84,7 @@ var students = [
     nickname: "",
     grade: 10,
     age: 16,
+    birthday: "January 17, 2006",
     bio: "I like to write."
   },
   {
@@ -87,6 +93,7 @@ var students = [
     nickname: "",
     grade: 10,
     age: 16,
+    birthday: "January 7, 2006",
     bio: "I like food."
   },
   {
