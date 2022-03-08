@@ -12,6 +12,7 @@ body{
   width: auto;
   grid-column: 1;
   grid-row: 2;
+  text-align: center;
 }
 #studentbio {
   background-color:lightblue;
@@ -32,4 +33,8 @@ body{
 #studentage {
   grid-column:2;
   grid-row:4;
+}
+#profilepic {
+  grid-column:1;
+  grid-row: 3/4;
 }
