@@ -14,7 +14,7 @@ function populatePage (i){
   nameDiv.innerHTML = students[i].name;
 
   var nicknameDiv = document.getElementById("nickname");
-  nicknameDiv.innerHTML = "Nickname: " students[i].nickname;
+  nicknameDiv.innerHTML = "Nickname: " + students[i].nickname;
 
   var gradeDiv = document.getElementById("studentgrade");
   gradeDiv.innerHTML = "Grade: " + students[i].grade;
