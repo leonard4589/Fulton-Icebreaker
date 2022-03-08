@@ -40,7 +40,7 @@ function populatePage (i){
   var bioDiv = document.getElementById("studentbio");
   bioDiv.innerHTML = students[i].bio;
 }
-studentn = getStudentByName("Julian Tockman");
+studentn = getStudentByName("Holden Appell");
 //studenti = getStudentByID(1);
 console.log (studentn);
 //console.log (studenti);
