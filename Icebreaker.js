@@ -1,7 +1,7 @@
-b=document.getElementById("backbutton");
-b.addEventListener("click", function(){
-  alert("Great now make that other page");
-})
+// b=document.getElementById("backbutton");
+// b.addEventListener("click", function(){
+//   alert("Great now make that other page");
+// })
 
 function getStudentByName(name){
   for (let n=0;n<students.length; n++){

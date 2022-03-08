@@ -2,26 +2,37 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Fulton Student Directory</title>
-    <link rel="stylesheet" href="icebreaker.css">
+    <title></title>
   </head>
   <body>
-<input type="button" id="backbutton" value="Back">
-<div id="pagetitle">
-  Fulton School Directory
-</div>
-<div id="studentname">
-</div>
-<div id="studentgrade">
-</div>
-<div id="studentage">
-</div>
-<div id="studentbio">
-</div>
-<div id="profilepic">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="">
-</div>
+    <input type="text" id="namesearch" value="">
+    <input type="button" id="backbutton" value="Back">
+    <div id="pagetitle">
+      Fulton School Directory
+    </div>
+    <div id="studentname">
+    </div>
+    <div id="nickname">
+    </div>
+    <div id="birthday">
+    </div>
+    <div id="studentgrade">
+    </div>
+    <div id="studentage">
+    </div>
+    <div id="studentbio">
+    </div>
+    <img id="profilepic" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png" alt="">
   </body>
   <script src="students.js"></script>
   <script src="icebreaker.js"></script>
+  <script type="text/javascript">
+    nameinput = document.getElementById ("namesearch")
+    nameinput.addEventListener("change",function(){
+      name = this.value;
+      console.log(name);
+      studentn = getStudentByName(name);
+      populatePage(studentn);
+    })
+  </script>
 </html>
