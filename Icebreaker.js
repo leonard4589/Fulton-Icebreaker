@@ -3,6 +3,14 @@ b.addEventListener("click", function(){
   alert("Great now make that other page");
 })
 
+function getStudentByName(name){
+  for (let n=0;n<students.length; n++){
+    if (name === students[n].name) {
+      return n;
+    }
+  }
+}
+
 function getStudentByID(id){
   for (let i=0;i<students.length; i++){
     if (id === students[i].id) {
@@ -32,6 +40,9 @@ function populatePage (i){
   var bioDiv = document.getElementById("studentbio");
   bioDiv.innerHTML = students[i].bio;
 }
-studenti = getStudentByID(5);
-console.log (studenti);
-populatePage(studenti);
+studentn = getStudentByName("Julian Tockman");
+//studenti = getStudentByID(1);
+console.log (studentn);
+//console.log (studenti);
+//populatePage(studenti);
+populatePage(studentn);
