@@ -4,7 +4,11 @@ b.addEventListener("click", function(){
 })
 
 function getStudentByID(id){
-  for (let i=0;i<students.length; i++){}
+  for (let i=0;i<students.length; i++){
+    if (id === students[i].id) {
+      return i;
+    }
+  }
 }
 
 
@@ -28,4 +32,6 @@ function populatePage (i){
   var bioDiv = document.getElementById("studentbio");
   bioDiv.innerHTML = students[i].bio;
 }
-populatePage(0)
+studenti = getStudentByID(5);
+console.log (studenti);
+populatePage(studenti);
