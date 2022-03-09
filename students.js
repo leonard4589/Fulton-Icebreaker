@@ -105,7 +105,7 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "1/7/2006",
-    bio: "I like food."
+    bio: "I like food.",
     tags: ["#soccer", "#poeple", "#school"]
   },
   {
@@ -115,7 +115,8 @@ var students = [
     grade: 12,
     age: 18,
     birthday: "8/31/2003",
-    bio: "I like blue hair."
+    bio: "I like blue hair.",
+    tags: ["#blueHair","#females", "#hockey"]
   },
 
 ]
