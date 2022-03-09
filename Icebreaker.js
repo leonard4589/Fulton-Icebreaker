@@ -3,6 +3,18 @@
 //   alert("Great now make that other page");
 // })
 
+
+
+nameinput = document.getElementById ("namesearch")
+nameinput.addEventListener("change",function(){
+  name = this.value;
+  console.log(name);
+  studentn = getStudentByName(name);
+  populatePage(studentn);
+})
+
+
+
 function getStudentByName(name){
   for (let n=0;n<students.length; n++){
     if (name === students[n].name) {
