@@ -45,7 +45,7 @@ var students = [
     age: 16,
     birthday: "10/7/2005",
     bio: "I like sushi.",
-    tags: ["#cats", "#anime", #"D and D"]
+    tags: ["#cats", "#anime", "#DandD"]
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ var students = [
     age: 14,
     birthday: "4/16/2007",
     bio: "I like stuff.",
-    tags: [""]
+    tags: ["#science","#anime", "#videogames"]
   },
   {
     id: 6,
@@ -64,7 +64,9 @@ var students = [
     grade: 11,
     age: 16,
     birthday: "6/13/2005",
-    bio: "I like coffee."
+    bio: "I like coffee.",
+    tags: ["#coffee", "#hockey", "#people"]
+
   },
   {
     id: 7,
@@ -73,7 +75,8 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "12/16/2005",
-    bio: "I like orange."
+    bio: "I like orange.",
+    tags: ["#Blas", "#school", "#videogames"]
   },
   {
     id: 8,
@@ -82,7 +85,8 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "1/31/2006",
-    bio: "I like pizza and gamers."
+    bio: "I like pizza and gamers.",
+    tags: ["#pizza", "#Coen", "#soccer"]
   },
   {
     id: 9,
@@ -91,7 +95,8 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "1/17/2006",
-    bio: "I like to write."
+    bio: "I like to write.",
+    tags: ["#people", "#volleyball", "#cats"]
   },
   {
     id: 10,
@@ -101,6 +106,7 @@ var students = [
     age: 16,
     birthday: "1/7/2006",
     bio: "I like food."
+    tags: ["#soccer", "#poeple", "#school"]
   },
   {
     id: 11,
