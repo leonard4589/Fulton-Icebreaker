@@ -45,7 +45,7 @@ var students = [
     age: 16,
     birthday: "10/7/2005",
     bio: "I like sushi.",
-    tags: ["#cats", "#anime", "D and D"]
+    tags: ["#cats", "#anime", #"D and D"]
   },
   {
     id: 5,
@@ -57,15 +57,14 @@ var students = [
     bio: "I like stuff.",
     tags: [""]
   },
-  // {
+  {
     id: 6,
     name: 'Joy Dunne',
     nickname: "Joy Joy",
     grade: 11,
     age: 16,
     birthday: "6/13/2005",
-    bio: "I like coffee.",
-    tags: ["#hockey", "#coffee", "#redbull"]
+    bio: "I like coffee."
   },
   {
     id: 7,
@@ -74,8 +73,7 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "12/16/2005",
-    bio: "I like orange.",
-    tags: ["#videogames","#Blas", "#school"]
+    bio: "I like orange."
   },
   {
     id: 8,
@@ -84,8 +82,7 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "1/31/2006",
-    bio: "I like pizza and gamers.",
-    tags: ["#videogames", "#soccer", "#Coen"]
+    bio: "I like pizza and gamers."
   },
   {
     id: 9,
@@ -94,8 +91,7 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "1/17/2006",
-    bio: "I like to write.",
-    tags: ["#volleyball", "#socialMedia", "#anime"]
+    bio: "I like to write."
   },
   {
     id: 10,
@@ -104,8 +100,7 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "1/7/2006",
-    bio: "I like food.",
-    tags: ["#soccer","#friends", "#people"]
+    bio: "I like food."
   },
   {
     id: 11,
@@ -114,8 +109,7 @@ var students = [
     grade: 12,
     age: 18,
     birthday: "8/31/2003",
-    bio: "I like blue hair.",
-    tags: ["#blueHair", "#hockey", "#females"]
+    bio: "I like blue hair."
   },
 
 ]
