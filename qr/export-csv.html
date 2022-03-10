@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      #jsonOutput {
+        background-color: cyan;
+        width: 90%;
+        height:40em;
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="">
+      Exporting students as json.
+    </div>
+
+    <textarea id="jsonOutput">
+
+    </textarea>
+  </body>
+  <script src="../students.js"></script>
+  <script type="text/javascript">
+    // console.log(JSON.stringify(students));
+
+    //document.getElementById("jsonOutput").innerHTML = JSON.stringify(students);
+
+    output = "";
+
+    for (student of students){
+      for ([key, value] of Object.entries(student)){
+        output += `${value},`;
+      }
+      output += "\n"
+
+    }
+    document.getElementById("jsonOutput").innerHTML = output;
+
+  </script>
+</html>

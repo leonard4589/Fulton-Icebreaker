@@ -1,20 +1,20 @@
-var students = [
+students = [
   {
-    // id: unique id for each student
+    # id: unique id for each student
     id: 1,
-    // name: unique name for each student (first name, last name)
+    # name: unique name for each student (first name, last name)
     name: 'Holden Appell',
-    // nickname: unique nickname asserted by student
+    # nickname: unique nickname asserted by student
     nickname: "Holdie",
-    // grade: unique grade for each student
+    # grade: unique grade for each student
     grade: 9,
-    // age: unique age for each student
+    # age: unique age for each student
     age: 15,
-    // bio: unique birthday
+    # bio: unique birthday
     birthday: "1/20/2007",
-    // bio: unique discription for each student written by student
+    # bio: unique discription for each student written by student
     bio: "I like breathing.",
-    // tags: hashtags to group individuals together
+    # tags: hashtags to group individuals together
     tags: ["#video games", "#walking", "#sleeping"]
   },
   {
@@ -120,3 +120,5 @@ var students = [
   },
 
 ]
+
+print(students)

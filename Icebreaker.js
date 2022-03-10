@@ -52,9 +52,12 @@ function populatePage (i){
   var bioDiv = document.getElementById("studentbio");
   bioDiv.innerHTML = students[i].bio;
 }
-studentn = getStudentByName("Holden Appell");
+// studentn = getStudentByName("Holden Appell");
 //studenti = getStudentByID(1);
-console.log (studentn);
+// console.log (studentn);
 //console.log (studenti);
 //populatePage(studenti);
-populatePage(studentn);
+let urlParams = new URLSearchParams(window.location.search);
+id = urlParams.get("id");
+console.log (id);
+populatePage(id);
