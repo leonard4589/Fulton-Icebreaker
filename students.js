@@ -13,7 +13,7 @@ var students = [
     // bio: unique birthday
     birthday: "1/20/2007",
     // bio: unique discription for each student written by student
-    bio: "I like breathing.".
+    bio: "I like breathing.",
     // tags: hashtags to group individuals together
     tags: ["#video games", "#walking", "#sleeping"]
   },
