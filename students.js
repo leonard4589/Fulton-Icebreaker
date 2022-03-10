@@ -13,7 +13,9 @@ var students = [
     // bio: unique birthday
     birthday: "1/20/2007",
     // bio: unique discription for each student written by student
-    bio: "I like breathing."
+    bio: "I like breathing.".
+    // tags: hashtags to group individuals together
+    tags: ["#video games", "#walking", "#sleeping"]
   },
   {
     id: 2,
@@ -22,7 +24,8 @@ var students = [
     grade: 10,
     age: 15,
     birthday: "6/24/2006",
-    bio: "I like food."
+    bio: "I like food.",
+    tags: ["#groot", "#food", "#gymnastics"]
   },
   {
     id: 3,
@@ -31,7 +34,8 @@ var students = [
     grade: 11,
     age: 17,
     birthday: "9/7/2004",
-    bio: "I like Ruthie."
+    bio: "I like Ruthie.",
+    tags: ["#volleyball", "#coffee", "#Ru"]
   },
   {
     id: 4,
@@ -40,7 +44,8 @@ var students = [
     grade: 11,
     age: 16,
     birthday: "10/7/2005",
-    bio: "I like sushi."
+    bio: "I like sushi.",
+    tags: ["#cats", "#anime", "#DandD"]
   },
   {
     id: 5,
@@ -49,7 +54,8 @@ var students = [
     grade: 9,
     age: 14,
     birthday: "4/16/2007",
-    bio: "I like stuff."
+    bio: "I like stuff.",
+    tags: ["#science","#anime", "#videogames"]
   },
   {
     id: 6,
@@ -58,7 +64,9 @@ var students = [
     grade: 11,
     age: 16,
     birthday: "6/13/2005",
-    bio: "I like coffee."
+    bio: "I like coffee.",
+    tags: ["#coffee", "#hockey", "#people"]
+
   },
   {
     id: 7,
@@ -67,7 +75,8 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "12/16/2005",
-    bio: "I like orange."
+    bio: "I like orange.",
+    tags: ["#Blas", "#school", "#videogames"]
   },
   {
     id: 8,
@@ -76,7 +85,8 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "1/31/2006",
-    bio: "I like pizza and gamers."
+    bio: "I like pizza and gamers.",
+    tags: ["#pizza", "#Coen", "#soccer"]
   },
   {
     id: 9,
@@ -85,7 +95,8 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "1/17/2006",
-    bio: "I like to write."
+    bio: "I like to write.",
+    tags: ["#people", "#volleyball", "#cats"]
   },
   {
     id: 10,
@@ -94,7 +105,8 @@ var students = [
     grade: 10,
     age: 16,
     birthday: "1/7/2006",
-    bio: "I like food."
+    bio: "I like food.",
+    tags: ["#soccer", "#people", "#school"]
   },
   {
     id: 11,
@@ -103,7 +115,8 @@ var students = [
     grade: 12,
     age: 18,
     birthday: "8/31/2003",
-    bio: "I like blue hair."
+    bio: "I like blue hair.",
+    tags: ["#blueHair","#females","#hockey"]
   },
 
 ]
