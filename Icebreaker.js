@@ -10,7 +10,8 @@ nameinput.addEventListener("change",function(){
   name = this.value;
   console.log(name);
   studentn = getStudentByName(name);
-  populatePage(studentn);
+  //populatePage(studentn);
+  location.replace("bios.html?id="+studentn)
 })
 
 
