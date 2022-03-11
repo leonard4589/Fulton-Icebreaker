@@ -45,7 +45,7 @@ var students = [
     age: 16,
     birthday: "10/7/2005",
     bio: "I like sushi.",
-    tags: ["#cats", "#anime", "#DandD"]
+    tags: ["#cats", "#anime", "#DnD"]
   },
   {
     id: 5,
