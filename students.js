@@ -121,12 +121,12 @@ var students = [
   {
     id: 12,
     name: "Ava Harkey",
-    nickname: "",
+    nickname: "slay mommy",
     grade: 9,
     age: 15,
     birthday: "3/12/2007",
     bio: "Slay the day.",
-    tags: [""]
+    tags: ["#SLAY","#plants","#music","photography","Coen" ]
   },
 
 ]
