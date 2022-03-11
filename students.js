@@ -55,7 +55,7 @@ var students = [
     age: 14,
     birthday: "4/16/2007",
     bio: "",
-    tags: ["#videogames"]
+    tags: [""]
   },
   {
     id: 6,
