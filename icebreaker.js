@@ -32,8 +32,27 @@ function getStudentByID(id){
   }
 }
 
-function getAllStudentNames(name){}
-var countries = ["Holden Appell", ]
+function getStudentByGrade(grade){
+  studentsInGrade = [];
+  for (let i=0;i<students.length; i++){
+    if (grade == students[i].grade){
+      studentsInGrade.push(students[i]);
+    }
+   }
+   return studentsInGrade;
+}
+
+sInGrade = getStudentByGrade(9);
+console.log (sInGrade)
+resultdiv = document.getElementById("searchresults");
+console.log (resultdiv);
+resultdiv.innerHTML = ""
+for (const student of sInGrade){
+  let element = document.createElement("div");
+  element.innerHTML = student.name;
+  resultdiv.appendChild(element)
+}
+
 
 function populatePage (i){
 
