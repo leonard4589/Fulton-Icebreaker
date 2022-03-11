@@ -23,7 +23,7 @@
 </div>
 <div id="studentbio">
 </div>
-<img id="profilepic" src="pic" alt="">
+<img id="profilepic" src="" alt="">
 <input type="text" id="namesearch" value="" maxlength="50">
 <div id="tags">
 </div>
@@ -34,6 +34,7 @@
   pic = document.getElementById("profilepic");
   console.log (id)
   sid=students[id].id
+  
   pic.setAttribute("src", `biopics/${sid}.jpg`)
   </script>
 </html>

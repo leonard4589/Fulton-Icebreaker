@@ -25,6 +25,7 @@ function getStudentByName(name){
 }
 
 function getStudentByID(id){
+  id=parseInt(id)
   for (let i=0;i<students.length; i++){
     if (id === students[i].id) {
       return i;
@@ -41,18 +42,22 @@ function getStudentByGrade(grade){
    }
    return studentsInGrade;
 }
-
-sInGrade = getStudentByGrade(9);
-console.log (sInGrade)
-resultdiv = document.getElementById("searchresults");
-console.log (resultdiv);
-resultdiv.innerHTML = ""
-for (const student of sInGrade){
-  let element = document.createElement("div");
-  element.innerHTML = student.name;
-  resultdiv.appendChild(element)
+function gradeSearch(grade){
+  sInGrade = getStudentByGrade(grade);
+  console.log (sInGrade)
+  resultdiv = document.getElementById("searchresults");
+  resultdiv.innerHTML = ""
+  for (const student of sInGrade){
+    let element = document.createElement("div");
+    // element.innerHTML = student.name;
+    let link = document.createElement("a");
+    element.appendChild(link)
+    link.setAttribute("href",`bios.html?id=${student.id}`)
+    link.innerHTML = student.name
+    console.log (element)
+    resultdiv.appendChild(element)
+  }
 }
-
 
 function populatePage (i){
 
@@ -85,4 +90,6 @@ function populatePage (i){
 let urlParams = new URLSearchParams(window.location.search);
 id = urlParams.get("id");
 console.log (id);
-populatePage(id);
+sid = getStudentByID(id);
+console.log (sid)
+populatePage(sid);
