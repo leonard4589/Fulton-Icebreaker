@@ -54,8 +54,8 @@ var students = [
     grade: 9,
     age: 14,
     birthday: "4/16/2007",
-    bio: "I like stuff.",
-    tags: ["#science","#anime", "#videogames"]
+    bio: "",
+    tags: ["#videogames"]
   },
   {
     id: 6,
