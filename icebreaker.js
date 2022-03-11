@@ -32,8 +32,20 @@ function getStudentByID(id){
   }
 }
 
-function getAllStudentNames(name){}
-var countries = ["Holden Appell", ]
+// function getAllStudentNames(){
+//   names = [];
+//   for (let i=0;i<students.length; i++){
+//     names.push(students[i].name)
+//    }
+//    return names;
+// }
+
+
+
+
+studentnames=getAllStudentNames()
+console.log (studentnames)
+
 
 function populatePage (i){
 
