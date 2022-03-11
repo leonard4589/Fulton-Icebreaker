@@ -53,8 +53,8 @@ function populatePage (i){
   birthdayDiv.innerHTML = "Birthday: " + students[i].birthday;
 
   var tagDiv = document.getElementById("tags");
-  tagDiv.innerHTML = "Tags: " + students[i].tags;
-  
+  tagDiv.innerHTML = students[i].tags;
+
   var bioDiv = document.getElementById("studentbio");
   bioDiv.innerHTML = students[i].bio;
 }

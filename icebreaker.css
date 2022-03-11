@@ -41,9 +41,13 @@ body{
   grid-column: 2;
   grid-row: 7;
 }
+#tags {
+  grid-column: 2;
+  grid-row: 8;
+}
 #profilepic {
   grid-column:1;
-  grid-row: 4/8;
+  grid-row: 4/9;
   width: 10em;
   display: block;
   border-radius: 20px;
@@ -54,7 +58,7 @@ body{
   border:1px solid black;
   width:25em;
   grid-column: 1/3;
-  grid-row: 9;
+  grid-row: 10;
 }
 .fcc-btn {
   background-color: #474545;
