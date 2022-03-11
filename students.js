@@ -118,5 +118,15 @@ var students = [
     bio: "I like blue hair.",
     tags: ["#blueHair","#females","#hockey"]
   },
+  {
+    id: 12,
+    name: "Ava Harkey",
+    nickname: "",
+    grade: 9,
+    age: 15,
+    birthday: "3/12/2007",
+    bio: "Slay the day.",
+    tags: [""]
+  },
 
 ]
