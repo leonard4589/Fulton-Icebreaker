@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fulton Student Directory</title>
+    <style media="screen">
+      #header {
+        display:grid;
+        grid-template-columns:repeat(6, 1fr);
+        gap: 3px;
+        grid-auto-rows:minmax(1em, auto);
+      }
+      .lower {
+        font-size: 20px;
+        grid-column: 1;
+        grid-row: 2;
+        text-align: center;
+        height: 2em;
+      }
+      .middle {
+        font-size: 20px;
+        grid-column: 2;
+        grid-row: 2;
+        text-align: center;
+        height: 2em;
+      }
+      .upper {
+        font-size: 20px;
+        grid-column: 3;
+        grid-row: 2;
+        text-align: center;
+        height: 2em;
+      }
+      .eslstudents {
+        font-size: 20px;
+        grid-column: 4;
+        grid-row: 2;
+        text-align: center;
+        height: 2em;
+      }
+      .faculty {
+        font-size: 20px;
+        grid-column: 5;
+        grid-row: 2;
+        text-align: center;
+        height: 2em;
+      }
+      #search {
+        background-color: lightblue;
+        font-size: 20px;
+        grid-column: 6;
+        grid-row: 2;
+        text-align: center;
+        border:1px solid black;
+        height: 2em;
+        padding-top: 15px;
+      }
+      #searchbar {
+        grid-column: 6;
+        grid-row: 2;
+        padding-top: 55px;
+      }
+      #pagetitle {
+        font-size: 30px;
+        text-align: center;
+      }
+
+      /* Dropdown Button */
+      .dropbtnL {
+        background-color: lightblue;
+        color: black;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        width:130px;
+        height:3em;
+        border: 1px solid black;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      /* Dropdown button on hover & focus */
+      .dropbtnL:hover, .dropbtnL:focus {
+        background-color:skyblue;
+      }
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdownL {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-contentL {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-contentL a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-contentL a:hover {background-color: #ddd}
+
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {display:block;}
+
+      /* Dropdown Button */
+      .dropbtnM {
+        background-color: lightblue;
+        color: black;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        width:130px;
+        height:3em;
+        border: 1px solid black;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      /* Dropdown button on hover & focus */
+      .dropbtnM:hover, .dropbtnM:focus {
+        background-color:skyblue;
+      }
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdownM {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-contentM {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-contentM a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-contentM a:hover {background-color: #ddd}
+
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {display:block;}
+      /* Dropdown Button */
+      .dropbtnU {
+        background-color: lightblue;
+        color: black;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        width:130px;
+        height:3em;
+        border: 1px solid black;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      /* Dropdown button on hover & focus */
+      .dropbtnU:hover, .dropbtnU:focus {
+        background-color:skyblue;
+      }
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdownU {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-contentU {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-contentU a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-contentU a:hover {background-color: #ddd}
+
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {display:block;}
+
+      /* Dropdown Button */
+      .dropbtnE {
+        background-color: lightblue;
+        color: black;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        width:130px;
+        height:3em;
+        border: 1px solid black;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      /* Dropdown button on hover & focus */
+      .dropbtnE:hover, .dropbtnE:focus {
+        background-color:skyblue;
+      }
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdownE {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-contentE {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-contentE a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-contentE a:hover {background-color: #ddd}
+
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {display:block;}
+
+      /* Dropdown Button */
+      .dropbtnF {
+        background-color: lightblue;
+        color: black;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        width:130px;
+        height:3em;
+        border: 1px solid black;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      /* Dropdown button on hover & focus */
+      .dropbtnF:hover, .dropbtnF:focus {
+        background-color:skyblue;
+      }
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdownF {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-contentF {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-contentF a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-contentF a:hover {background-color: #ddd}
+
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {display:block;}
+
+    </style>
+  </head>
+  <body>
+  <div id="pagetitle">
+    Fulton School Directory
+  </div>
+<div id="header">
+
+  <div class="lower">
+    <button onclick="myFunctionL()" class="dropbtnL">Lower</button>
+    <div id="myDropdownL" class="dropdown-contentL">
+      <a href="#">Grade 1</a>
+      <a href="#">Grade 2</a>
+      <a href="#">Grade 3</a>
+      <a href="#">Grade 4</a>
+      <a href="#">Grade 5</a>
+      <a href="#">Grade 6</a>
+    </div>
+  </div>
+
+  <div class="middle">
+    <button onclick="myFunctionM()" class="dropbtnM">Middle</button>
+    <div id="myDropdownM" class="dropdown-contentM">
+      <a href="#">Grade 7</a>
+      <a href="#">Grade 8</a>
+    </div>
+  </div>
+
+  <div class="upper">
+    <button onclick="myFunctionU()" class="dropbtnU">Upper</button>
+    <div id="myDropdownU" class="dropdown-contentU">
+      <a href="#">Grade 9</a>
+      <a href="#">Grade 10</a>
+      <a href="#">Grade 11</a>
+      <a href="#">Grade 12</a>
+    </div>
+  </div>
+
+  <div class="eslstudents">
+    <button onclick="myFunctionE()" class="dropbtnE">ESL Students</button>
+    <div id="myDropdownE" class="dropdown-contentE">
+      <a href="#">Current Year</a>
+      <a href="#">Previous Years</a>
+    </div>
+  </div>
+
+  <div class="faculty">
+    <button onclick="myFunctionF()" class="dropbtnF">Faculty</button>
+    <div id="myDropdownF" class="dropdown-contentF">
+      <a href="#">Lower School</a>
+      <a href="#">Upper School</a>
+      <a href="#">Office</a>
+    </div>
+  </div>
+
+  <div id="search">
+    Search
+  </div>
+<div id="searchbar">
+ <form autocomplete="off" action="/action_page.php">
+  <input type="text" id="namesearch" value="" maxlength="50">
+  <div class="autocomplete" style="width:300px;">
+  </div>
+</form>
+</div>
+</div>
+  </body>
+  <script src="students.js"></script>
+  <script src="icebreaker.js"></script>
+  <script type="text/javascript">
+  /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunctionL() {
+document.getElementById("myDropdownL").classList.toggle("show");
+}
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunctionM() {
+document.getElementById("myDropdownM").classList.toggle("show");
+}
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunctionU() {
+document.getElementById("myDropdownU").classList.toggle("show");
+}
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunctionE() {
+document.getElementById("myDropdownE").classList.toggle("show");
+}
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunctionF() {
+document.getElementById("myDropdownF").classList.toggle("show");
+}
+  </script>
+</html>
