@@ -32,20 +32,8 @@ function getStudentByID(id){
   }
 }
 
-// function getAllStudentNames(){
-//   names = [];
-//   for (let i=0;i<students.length; i++){
-//     names.push(students[i].name)
-//    }
-//    return names;
-// }
-
-
-
-
-studentnames=getAllStudentNames()
-console.log (studentnames)
-
+function getAllStudentNames(name){}
+var countries = ["Holden Appell", ]
 
 function populatePage (i){
 
@@ -64,6 +52,9 @@ function populatePage (i){
   var birthdayDiv = document.getElementById("birthday");
   birthdayDiv.innerHTML = "Birthday: " + students[i].birthday;
 
+  var tagDiv = document.getElementById("tags");
+  tagDiv.innerHTML = "Tags: " + students[i].tags;
+  
   var bioDiv = document.getElementById("studentbio");
   bioDiv.innerHTML = students[i].bio;
 }
