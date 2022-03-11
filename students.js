@@ -15,7 +15,7 @@ var students = [
     // bio: unique discription for each student written by student
     bio: "I like breathing.",
     // tags: hashtags to group individuals together
-    tags: ["#video games", "#walking", "#sleeping"]
+    tags: ["#video games", "#walking", "#sleeping","#The Fitness Gram Pacer Test"]
   },
   {
     id: 2,
@@ -126,7 +126,7 @@ var students = [
     age: 15,
     birthday: "3/12/2007",
     bio: "Slay the day.",
-    tags: ["#SLAY","#plants","#music","photography","Coen" ]
+    tags: ["#SLAY","#plants","#music","#photography","Coen"]
   },
 
 ]
