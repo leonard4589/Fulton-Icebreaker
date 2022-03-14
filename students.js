@@ -35,7 +35,7 @@ var students = [
     age: 17,
     birthday: "9/7/2004",
     bio: "Second generation of dad jokes.",
-    tags: ["#volleyball", "#traveling", "#myMazda"]
+    tags: ["#volleyball", "#traveling", "#myMazda", "#ru"]
   },
   {
     id: 4,
@@ -49,47 +49,6 @@ var students = [
   },
   {
     id: 5,
-    name: 'Julian Tockman',
-    nickname: "",
-    grade: 9,
-    age: 14,
-    birthday: "4/16/2007",
-    bio: "",
-    tags: [""]
-  },
-  {
-    id: 6,
-    name: 'Joy Dunne',
-    nickname: "Joy Joy",
-    grade: 11,
-    age: 16,
-    birthday: "6/13/2005",
-    bio: "I like coffee.",
-    tags: ["#coffee", "#hockey", "#people"]
-
-  },
-  {
-    id: 7,
-    name: 'Coen Key',
-    nickname: "",
-    grade: 10,
-    age: 16,
-    birthday: "12/16/2005",
-    bio: "I like orange.",
-    tags: ["#Blas", "#school", "#videogames"]
-  },
-  {
-    id: 8,
-    name: 'Blas Urbano',
-    nickname: "Pizza Gamer",
-    grade: 10,
-    age: 16,
-    birthday: "1/31/2006",
-    bio: "I like pizza and gamers.",
-    tags: ["#pizza", "#Coen", "#soccer"]
-  },
-  {
-    id: 9,
     name: 'Maddeleine Hassan',
     nickname: "Maddy",
     grade: 10,
@@ -99,7 +58,7 @@ var students = [
     tags: ["#writing", "#reading", "#anime", "#poetry"]
   },
   {
-    id: 10,
+    id: 6,
     name: 'Kate Doyle',
     nickname: "Kate",
     grade: 10,
@@ -109,17 +68,7 @@ var students = [
     tags: ["#soccer", "#running", "#reading", "#painting", "#music"]
   },
   {
-    id: 11,
-    name: 'James Dunne',
-    nickname: "Sir Long Calf",
-    grade: 12,
-    age: 18,
-    birthday: "8/31/2003",
-    bio: "I like blue hair.",
-    tags: ["#blueHair","#females","#hockey"]
-  },
-  {
-    id: 12,
+    id: 7,
     name: 'Ava Harkey',
     nickname: "Ava",
     grade: 9,
@@ -129,7 +78,7 @@ var students = [
     tags: ["#music", "#guitar", "#photography", "#art", "#plants", "#gardening", "#mycology", "#thaicountrykitchen", "#cooking", "#hiking"]
    },
    {
-     id: 13,
+     id: 8,
      name: "Isaac Levinson",
      nickname: "Home Slice, Joseph",
      grade: 12,
@@ -139,7 +88,7 @@ var students = [
      tags: ["#skateboarding", "#snowboarding", "#saxophone", "#videogames", "#dirtbikeriding"]
    },
    {
-     id: 14,
+     id: 9,
      name: "Jordan Saunders",
      nickname: "Jordan",
      grade: 11,
@@ -149,7 +98,7 @@ var students = [
      tags: ["#running", "#baking", "#photography", "#nature", "#theocean"]
    },
    {
-     id: 15,
+     id: 10,
      name: "John Schenk",
      nickname: "John",
      grade: 11,
@@ -159,7 +108,7 @@ var students = [
      tags: ["#movies", "#golf"]
    },
    {
-     id: 16,
+     id: 11,
      name: "Skylar Mitchell",
      nickname: "Mr. Mitchell",
      grade: "teacher",
@@ -169,7 +118,7 @@ var students = [
      tags: ["#track", "#basketball", "#DnD"]
    },
    {
-     id: 17,
+     id: 12,
      name: 'John Fadlovich',
      nickname: "Jack",
      grade: 12,
@@ -179,7 +128,7 @@ var students = [
      tags: ["#gaming","#sports","#esports"]
    },
    {
-     id: 18,
+     id: 13,
      name: 'Ella Alt',
      nickname: "Jollyranger",
      grade: 10,
@@ -189,7 +138,7 @@ var students = [
      tags: ["#volleyball","#basketball","#painting", "#beingoutside", "#thrifting", "#makeupandskincare", "#picnics", "#photoswithfriends"]
    },
    {
-     id: 19,
+     id: 14,
      name: 'Ryan Schenk',
      nickname: "Ryan",
      grade: 9,
@@ -199,7 +148,7 @@ var students = [
      tags: ["#legendsoflegends","#yugioh"]
    },
    {
-     id: 20,
+     id: 15,
      name: 'Luke Lannert',
      nickname: "Luke",
      grade: 11,
@@ -209,7 +158,7 @@ var students = [
      tags: ["#baseball","#music"]
    },
    {
-     id: 21,
+     id: 16,
      name: 'Adam Levinson',
      nickname: "Adam",
      grade: 11,
@@ -219,7 +168,7 @@ var students = [
      tags: ["#videogames","#messingaroundwithfriends"]
    },
    {
-     id: 22,
+     id: 17,
      name: 'Spencer Culling',
      nickname: "Spenca",
      grade: 8,
@@ -227,5 +176,25 @@ var students = [
      birthday: "01/03/2008",
      bio: "'Shake and bake time. - Ricky Bobby'",
      tags: ["#basketball","#football","#fishing", "#golfing"]
+   },
+   {
+     id: 18,
+     name: 'Bryce Mertens',
+     nickname: "Bice",
+     grade: 11,
+     age: 17,
+     birthday: "",
+     bio: "My goal is to make it big in the User interface department.",
+     tags: ["#videogames"]
+   },
+   {
+     id: 19,
+     name: 'Lily Leonard',
+     nickname: "Lily",
+     grade: 8,
+     age: 14,
+     birthday: "11/30/2007",
+     bio: "Goal = travel the world.",
+     tags: ["#basketball","#soccer", "#football", "#sleeping", "#workingout", "#eating"]
    },
 ]
