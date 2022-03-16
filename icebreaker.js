@@ -9,19 +9,27 @@ nameinput = document.getElementById ("namesearch")
 nameinput.addEventListener("change",function(){
   name = this.value;
   console.log(name);
-  studentn = getStudentByName(name);
-  //populatePage(studentn);
-  location.replace("bios.html?id="+studentn)
+  studentID = getStudentByName(name);
+  if (studentID !== false) {
+    //populatePage(studentn);
+    location.replace("bios.html?id="+studentID);
+  } else {
+    console.log('not found');
+  }
 })
 
 
 
-function getStudentByName(name){
-  for (let n=0;n<students.length; n++){
-    if (name === students[n].name) {
-      return n;
+function getStudentByName(name) {
+  // i indicates ignore case
+  let searchRegularExpression = new RegExp(name, 'i');
+  for (let n=0;n<students.length; n++) {
+    if (students[n].name.match(searchRegularExpression) ||
+        students[n].nickname.match(searchRegularExpression)) {
+      return students[n].id;
     }
   }
+  return false;
 }
 
 function getStudentByID(id){

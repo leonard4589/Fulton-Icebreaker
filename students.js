@@ -49,7 +49,7 @@ var students = [
   },
   {
     id: 5,
-    name: 'Maddeleine Hassan',
+    name: 'Madeline Hassan',
     nickname: "Maddy",
     grade: 10,
     age: 16,
