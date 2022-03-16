@@ -132,7 +132,7 @@ var students = [
      name: 'Ella Alt',
      nickname: "Jollyranger",
      grade: 10,
-     age: ,
+     age: "",
      birthday: "",
      bio: "My name is Ella and I’m a sophomore. I’ve been at TFS, since I was in preschool. I like playing volleyball and basketball. I started playing volleyball in 8th grade for our school. I just decided to join because some of my friends were playing and I’ve grown to really love volleyball! I’ve played basketball recreationally since about 3rd or 4th grade. I love going thrifting and second hand shopping. When I first meet people I’m usually pretty quiet, but when you get to know me I get a lot more talkative!",
      tags: ["#volleyball","#basketball","#painting", "#beingoutside", "#thrifting", "#makeupandskincare", "#picnics", "#photoswithfriends"]
@@ -142,7 +142,7 @@ var students = [
      name: 'Ryan Schenk',
      nickname: "Ryan",
      grade: 9,
-     age: ,
+     age: "",
      birthday: "",
      bio: "I like league and yogioh and hanging out with friends.",
      tags: ["#legendsoflegends","#yugioh"]
