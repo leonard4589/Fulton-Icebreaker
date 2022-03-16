@@ -32,9 +32,11 @@
   <script src="icebreaker.js"></script>
   <script type="text/javascript">
   pic = document.getElementById("profilepic");
+// 36; temp fix THIS NEEDS TO BE FIXED
+  sid=students[id].id - 1
   console.log (id)
-  sid=students[id].id
-  
+
+
   pic.setAttribute("src", `biopics/${sid}.jpg`)
   </script>
 </html>
