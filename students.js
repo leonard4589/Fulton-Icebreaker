@@ -197,4 +197,14 @@ var students = [
      bio: "Goal = travel the world.",
      tags: ["#basketball","#soccer", "#football", "#sleeping", "#workingout", "#eating"]
    },
+   {
+     id: 20,
+     name: 'George Douglass',
+     nickname: "George",
+     grade: 12,
+     age: 18,
+     birthday: "1/23/2003",
+     bio: "I do lots of sports I like to talk. I also like to make things.",
+     tags: ["#golf","#soccer", "#basketball", "#videogames", "#makingstuff"]
+   },
 ]
