@@ -207,4 +207,24 @@ var students = [
      bio: "I do lots of sports I like to talk. I also like to make things.",
      tags: ["#golf","#soccer", "#basketball", "#videogames", "#makingstuff"]
    },
+   {
+     id: 21,
+     name: 'Rachel Fledderjohn',
+     nickname: "Rae",
+     grade: 12,
+     age: "",
+     birthday: "",
+     bio: "Good things come to those who Believe, better things come to those who are Patient, and the best things come to those who Don't Give Up. - Unknown.",
+     tags: ["#volleyball", "#soccer", "#cooking", "#baking", "#sportsmanager","#crafts"]
+   },
+   {
+     id: 22,
+     name: 'Sofia Casalone',
+     nickname: "Sofia",
+     grade: 10,
+     age: 15,
+     birthday: "6/24/2006",
+     bio: "Failing to prepare, is preparing to fail.",
+     tags: ["#horseriding", "#crossfit"]
+   },
 ]
