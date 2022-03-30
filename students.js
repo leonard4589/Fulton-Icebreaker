@@ -227,4 +227,294 @@ var students = [
      bio: "Failing to prepare, is preparing to fail.",
      tags: ["#horseriding", "#crossfit"]
    },
+   {
+    id: 24,
+    name: 'Joy Dunne',
+    nickname: "Joy Joy",
+    grade: 11,
+    age: 16,
+    birthday: "6/13/2005",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 25,
+    name: 'James Dunne',
+    nickname: "James",
+    grade: 12,
+    age: 18,
+    birthday: "8/31/2003",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 26,
+    name: 'Andrew Harkey',
+    nickname: "Andrew",
+    grade: 11,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 27,
+    name: 'Caleb Parham',
+    nickname: "Lub",
+    grade: 12,
+    age: 18,
+    birthday: "7/13/2003",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 28,
+    name: 'Kristina Fulton',
+    nickname: "Kristina",
+    grade: 12,
+    age: 18,
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 29,
+    name: 'Ana Martinez Requena',
+    nickname: "Ana",
+    grade: 11,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 30,
+    name: 'Darian Downes',
+    nickname: "Darian",
+    grade: 11,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 31,
+    name: 'Maya Christian',
+    nickname: "Maya",
+    grade: 11,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 32,
+    name: 'Dobby Zhang',
+    nickname: "Dobby",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 33,
+    name: 'Blas Urbano',
+    nickname: "Blas",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 34,
+    name: 'Zoe Smith',
+    nickname: "Zoe",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 36,
+    name: 'Charlotte Poinsenet Agudo',
+    nickname: "Charlotte",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 37,
+    name: 'Alex Nienhaus',
+    nickname: "AJ",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 38,
+    name: 'Sam Leeker',
+    nickname: "Sam",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 39,
+    name: 'Andrew Komadina',
+    nickname: "Andrew",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 40,
+    name: 'Coen Key',
+    nickname: "Coen",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 41,
+    name: 'Starley Hurtte',
+    nickname: "Starley",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 42,
+    name: 'Hali Christian',
+    nickname: "Hali",
+    grade: 10,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 43,
+    name: 'Julian Tockman',
+    nickname: "Julian",
+    grade: 9,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 44,
+    name: 'Mary Laws',
+    nickname: "Mary",
+    grade: 9,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 45,
+    name: 'Liam Tockman',
+    nickname: "Liam",
+    grade: 8,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 46,
+    name: 'Miles Smith',
+    nickname: "Miles",
+    grade: 7,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 47,
+    name: 'Damien Smith',
+    nickname: "Damien",
+    grade: 7,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 48,
+    name: 'Ben Hoskins',
+    nickname: "Ben",
+    grade: 8,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 49,
+    name: 'Lizzy Hoskins',
+    nickname: "Lizzy",
+    grade: 11,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 50,
+    name: 'Maybelle Hahn',
+    nickname: "Maybelle",
+    grade: 8,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 51,
+    name: 'Abri Fleischli',
+    nickname: "Abri",
+    grade: 7,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 52,
+    name: 'Will Doyle',
+    nickname: "Will",
+    grade: 8,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
+  {
+    id: 53,
+    name: 'Sally Armstrong',
+    nickname: "Sally",
+    grade: 8,
+    age: "",
+    birthday: "",
+    bio: "",
+    tags: [""]
+  },
 ]
